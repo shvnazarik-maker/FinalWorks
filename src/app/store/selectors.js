@@ -1,0 +1,10 @@
+export const selectIsLoggedIn = state => state.auth.isLoggedIn;
+export const selectData = state => state.data;
+export const selectUser = state => state.data.user;
+export const selectFriends = state => state.data.friends;
+export const selectAddedFriendIds = state => state.data.addedFriendIds;
+export const selectPhotos = state => state.data.photos;
+export const selectMusic = state => state.data.music;
+export const selectNotes = state => state.data.notes;
+export const selectMessages = state => state.data.messages;
+export const selectUi = state => state.ui;
