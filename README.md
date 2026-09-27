@@ -36,54 +36,88 @@ HTML, CSS, JavaScript, Tailwind css, React.
 
 ```text
 FinalProject/
+│
+├── node_modules/
+│
+├── public/
+│
 ├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   ├── index.css
 │   │
 │   ├── app/
-│   │   ├── store/
-│   │   │   ├── store.js
-│   │   │   └── selectors.js
 │   │   │
-│   │   ├── slices/
-│   │   │   └── authSlice.js
-│   │   │
-│   │   └── dataSlice.js
+│   │   └── store/
+│   │       │
+│   │       ├── slices/
+│   │       │   ├── authSlice.js
+│   │       │   ├── dataSlice.js
+│   │       │   └── uiSlice.js
+│   │       │
+│   │       ├── selectors.js
+│   │       └── store.js
 │   │
 │   ├── assets/
-│   │   └── hero.png
 │   │
 │   ├── components/
+│   │   │
+│   │   ├── Footer.jsx
 │   │   ├── Header.jsx
-│   │   ├── Sidebar.jsx
 │   │   ├── MusicPlayer.jsx
-│   │   └── Footer.jsx
+│   │   └── Sidebar.jsx
 │   │
 │   ├── hooks/
+│   │   │
 │   │   ├── useAudioPlayer.js
 │   │   └── useLocalStorage.js
 │   │
 │   ├── pages/
+│   │   │
+│   │   ├── Friends.jsx
 │   │   ├── Home.jsx
 │   │   ├── Login.jsx
-│   │   ├── Register.jsx
-│   │   └── Profile.jsx
+│   │   ├── Messages.jsx
+│   │   ├── Music.jsx
+│   │   ├── Notes.jsx
+│   │   ├── Photos.jsx
+│   │   ├── Profile.jsx
+│   │   └── Register.jsx
 │   │
 │   ├── routes/
+│   │   │
 │   │   └── AppRoutes.jsx
 │   │
-│   └── services/
-│       ├── api.js
-│       ├── authService.js
-│       └── usersApi.js
+│   ├── services/
+│   │   │
+│   │   └── api/
+│   │       │
+│   │       ├── authApi.js
+│   │       ├── friendsApi.js
+│   │       ├── http.js
+│   │       ├── imageUrl.js
+│   │       ├── index.js
+│   │       ├── messagesApi.js
+│   │       ├── musicApi.js
+│   │       ├── notesApi.js
+│   │       ├── photosApi.js
+│   │       ├── usersApi.js
+│   │       ├── api.js
+│   │       ├── authService.js
+│   │       └── storage.js
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 │
-├── public/
 ├── .gitignore
-├── README.md
-├── package.json
+├── .oxlintrc.json
+├── index.html
 ├── package-lock.json
+├── package.json
+│
+├── README_API_PROFILE.md
+├── README.md
+├── REFACTOR_NOTES.md
+│
 └── vite.config.js
 ```
 
