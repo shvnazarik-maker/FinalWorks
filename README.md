@@ -32,32 +32,28 @@ HTML, CSS, JavaScript, Tailwind css, React.
 
 
 
-Архітектура:
+### Архітектура
 
-
+```text
 FinalProject/
-│
 ├── src/
-│   │
 │   ├── App.jsx
 │   ├── App.css
 │   ├── main.jsx
 │   ├── index.css
 │   │
 │   ├── app/
-│   │   └── store/
-│   │       ├── store.js
-│   │       ├── selectors.js
-│   │       │
-│   │       └── slices/
-│   │           ├── authSlice.js
-│   │           ├── dataSlice.js
-│   │           └── uiSlice.js
+│   │   ├── store/
+│   │   │   ├── store.js
+│   │   │   └── selectors.js
+│   │   │
+│   │   ├── slices/
+│   │   │   └── authSlice.js
+│   │   │
+│   │   └── dataSlice.js
 │   │
 │   ├── assets/
-│   │   ├── hero.png
-│   │   ├── react.svg
-│   │   └── vite.svg
+│   │   └── hero.png
 │   │
 │   ├── components/
 │   │   ├── Header.jsx
@@ -73,12 +69,7 @@ FinalProject/
 │   │   ├── Home.jsx
 │   │   ├── Login.jsx
 │   │   ├── Register.jsx
-│   │   ├── Profile.jsx
-│   │   ├── Friends.jsx
-│   │   ├── Messages.jsx
-│   │   ├── Music.jsx
-│   │   ├── Photos.jsx
-│   │   └── Notes.jsx
+│   │   └── Profile.jsx
 │   │
 │   ├── routes/
 │   │   └── AppRoutes.jsx
@@ -86,33 +77,15 @@ FinalProject/
 │   └── services/
 │       ├── api.js
 │       ├── authService.js
-│       ├── storage.js
-│       │
-│       └── api/
-│           ├── index.js
-│           ├── http.js
-│           ├── authApi.js
-│           ├── usersApi.js
-│           ├── friendsApi.js
-│           ├── messagesApi.js
-│           ├── musicApi.js
-│           ├── photosApi.js
-│           ├── notesApi.js
-│           └── imageUrl.js
+│       └── usersApi.js
 │
 ├── public/
-│   ├── favicon.svg
-│   └── icons.svg
-│
 ├── .gitignore
-├── .oxlintrc.json
 ├── README.md
-├── README_API_PROFILE.md
-├── REFACTOR_NOTES.md
-├── index.html
 ├── package.json
 ├── package-lock.json
 └── vite.config.js
+```
 
 
 
