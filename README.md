@@ -34,9 +34,6 @@ HTML, CSS, JavaScript, Tailwind css, React.
 
 Архітектура:
 
-Коротко опиши структуру проєкту та основні компоненти.
-
-Наприклад:
 
 FinalProject/
 │
